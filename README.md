@@ -134,7 +134,9 @@ Focus: Reconnaissance, OSINT, analysis, reporting
 # Comparison with Python
 Python code for Hashing --
 import hashlib
+
 h = hashlib.sha256(b"password").hexdigest()
+
 print(h)
 
 Cyber+ Alpha (CPA) command for Hashing --
