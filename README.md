@@ -1,4 +1,4 @@
-# Cyber Plus Alpha
+# Cyber Plus Alpha (CPA)
 A powerful programming language made for Cyber Security that is -- 
 # Fast
 # Easy
@@ -121,7 +121,7 @@ Exports collected data as an HTML report.
 ClearReport();
 Clears all stored report data.
 
-Summary
+# Summary
 
 Total commands: 29
 
@@ -130,6 +130,16 @@ Type: Ethical cybersecurity DSL
 Platform: Go-based standalone executable
 
 Focus: Reconnaissance, OSINT, analysis, reporting
+
+# Comparison with Python
+Python code for Hashing --
+import hashlib
+h = hashlib.sha256(b"password").hexdigest()
+print(h)
+
+Cyber+ Alpha (CPA) command for Hashing --
+
+Hash_Compute("password", "sha256");
 
 # Thank you for Downloading
 # Cyber+ Team {VERSION - ALPHA (1.0)}
