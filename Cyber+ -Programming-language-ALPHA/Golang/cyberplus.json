@@ -1,0 +1,21 @@
+{
+  "scopeName": "source.cyberplus",
+  "patterns": [
+    {
+      "name": "keyword.control.cyberplus",
+      "match": "-- run Cyber\\+"
+    },
+    {
+      "name": "support.function.cyberplus",
+      "match": "\\b(Compute|Ping|Scan_Port|Dns_Lookup|Subdomain_Enum|IP_Info|Reverse_IP|HTTP_Headers|URL_Status|SSL_Info|Whois|Phone_Info|Email_Security|Recon|Export_Report)\\b"
+    },
+    {
+      "name": "string.quoted.double.cyberplus",
+      "match": "\"[^\"]*\""
+    },
+    {
+      "name": "constant.numeric.cyberplus",
+      "match": "\\b\\d+\\b"
+    }
+  ]
+}
