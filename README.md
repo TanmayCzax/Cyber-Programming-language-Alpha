@@ -1,10 +1,32 @@
 # Cyber Plus Alpha (CPA)
-A powerful programming language made for Cyber Security that is -- 
-# Fast
-# Easy
-# Lightweight
+The first cybersecurity-only programming language.
+
+## Why Cyber+?
+Cyber+ eliminates the need to write long scripts and install heavy libraries
+for common cybersecurity tasks.
+
+## Example
+Python (15+ lines) vs Cyber+ (1 line)
+
+## Features
+- Fast (Go-powered)
+- Security-focused DSL
+- Beginner friendly
+- Cross-platform
+
+## Installation
+(one command)
+
+## Commands
+(list everything)
+
+## Use cases
+- Students
+- Security researchers
+- Automation
 
 Cyber+ Alpha is a new version of Cyber+ 0.1
+
 # Use Cyber+ for Ethical purpose.
 Here are example codes of Cyber+ with there uses -- 
 
