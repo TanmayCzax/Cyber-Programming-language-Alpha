@@ -1,0 +1,140 @@
+:root {
+  --bg: #0b0f14;
+  --bg-dark: #070a0e;
+  --text: #e6edf3;
+  --muted: #9aa4ad;
+  --accent: #00e5ff;
+  --border: #1f2a33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+nav a {
+  color: var(--muted);
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--text);
+}
+
+.hero {
+  padding: 5rem 2rem;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+button {
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.primary {
+  background: var(--accent);
+  color: #000;
+}
+
+.secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.large {
+  font-size: 1.1rem;
+  padding: 1rem 2.2rem;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section.dark {
+  background: var(--bg-dark);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.section p {
+  color: var(--muted);
+}
+
+pre {
+  background: #05080c;
+  padding: 1.2rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+}
+
+.features {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.features li {
+  margin-bottom: 0.6rem;
+  color: var(--muted);
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  }
