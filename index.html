@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyber+ Programming Language</title>
+
+  <meta name="description" content="Cyber+ is a cybersecurity-focused domain-specific programming language using the .cyp file extension." />
+  <meta name="keywords" content="Cyber+ programming language, .cyp language, cybersecurity DSL" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Cyber+</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#example">Example</a>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Cyber+ Programming Language</h1>
+    <p>
+      A cybersecurity-focused domain-specific programming language
+      designed for security automation and analysis.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="primary" onclick="goToRepo()">Download</button>
+      <button class="secondary" onclick="scrollToSection('example')">View Example</button>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Cyber+</h2>
+    <p>
+      Cyber+ is a domain-specific programming language (DSL) built
+      specifically for cybersecurity tasks such as reconnaissance,
+      scanning, hashing, encoding, and reporting.
+    </p>
+
+    <p>
+      Cyber+ source code is written using the <strong>.cyp</strong> file extension.
+    </p>
+  </section>
+
+  <section id="example" class="section dark">
+    <h2>Example (.cyp)</h2>
+
+    <pre><code>
+create ip = "127.0.0.1";
+create port = 80;
+
+Ping(ip);
+Scan_Port(ip, port);
+Export_Report("json");
+    </code></pre>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Key Features</h2>
+
+    <ul class="features">
+      <li>Purpose-built for cybersecurity</li>
+      <li>Readable and minimal syntax</li>
+      <li>Built-in security functions</li>
+      <li>VS Code support</li>
+      <li>Open-source</li>
+    </ul>
+  </section>
+
+  <section id="download" class="section dark center">
+    <h2>Get Cyber+</h2>
+    <p>
+      Cyber+ is open-source and available on GitHub.
+    </p>
+
+    <button class="primary large" onclick="goToRepo()">Go to GitHub Repository</button>
+  </section>
+
+  <footer>
+    <p>
+      © <span id="year"></span> Cyber+ Programming Language
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
