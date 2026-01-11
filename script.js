@@ -1,10 +1,18 @@
+
 function goToRepo() {
-  // 🔴 CHANGE THIS URL TO YOUR ACTUAL GITHUB REPO
-  window.location.href = "https://github.com/YOUR_USERNAME/YOUR_REPO";
+  window.location.href = "https://github.com/TanmayCzax/Cyber-Programming-language-Alpha";
 }
 
 function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
 }
 
-document.getElementById("year").textContent = new Date().getFullYear();
+document.addEventListener("DOMContentLoaded", () => {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+});
