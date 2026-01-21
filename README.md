@@ -166,4 +166,4 @@ Cyber+ Alpha (CPA) command for Hashing --
 Hash_Compute("password", "sha256");
 
 # Thank you for Downloading
-# Cyber+ Team {VERSION - ALPHA (1.0)}
+# Cyber+ Team {VERSION - ALPHA (0.8)}
